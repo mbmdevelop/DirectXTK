@@ -34,15 +34,15 @@ project "DirectXTK"
 
   includedirs
   {
-    (path.join(DEPS_DIR,"DirectXTK/Inc")),
-    (path.join(DEPS_DIR,"DirectXTK/Src")),
-    (path.join(DEPS_DIR,"DirectXTK/Src/Shaders/Compiled")),
+    (path.join(DEPS_DIR,"DirectXTK/include")),
+    (path.join(DEPS_DIR,"DirectXTK/src")),
+    (path.join(DEPS_DIR,"DirectXTK/src/Shaders/Compiled")),
   }
   files
   {
-  	"Inc/**",
-  	"Src/*.h",
-  	"Src/*.cpp",
+  	"include/**",
+  	"src/*.h",
+  	"src/*.cpp",
     "Audio/**",
   }
 
